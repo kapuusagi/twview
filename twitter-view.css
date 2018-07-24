@@ -1,0 +1,73 @@
+/* ボディ */
+body {
+  background-image: url("");
+  height: 100%;
+}
+
+/* ヘッダー */
+header {
+  height: 80px;
+  width: 98%;
+  background: rgba(0,64,64, 0.5);
+  color: rgb(200,255,255); /* 背景色 */
+  margin: 2px;
+  border-radius: 4px;
+}
+
+.header-left {
+  padding: 0px 20px;
+  float: left;
+}
+.header-right {
+  padding: 0px 20px;
+  float: right;
+}
+
+/* 左側メニュー */
+.left-menu {
+  width: 240px;
+  float: left;
+  border-radius: 4px;
+  background-color: rgba(255,200,200,0.5);
+}
+
+.clear {
+  clear: both; /* floatの解除 */
+}
+
+.contents-wrapper {
+  margin-left: 240px;
+  width: 98%;
+}
+
+.contents {
+  margin: 4px 10px;
+  width: 100px;
+}
+
+.tw-link {
+
+}
+
+.left-menu ul {
+  font-weight: bold;
+}
+
+.left-menu li {
+  /* background-color: rgb(255,240,240); */
+  transition: 0.5s linear;
+  padding: 4px;
+  margin: 4px;
+}
+
+.left-menu li:hover {
+  background-color: rgb(40,0,0);
+  color: rgb(255,200,200);
+  transition: 0.5s linear;
+  margin: 4px;
+}
+
+#tw-timeline1 {
+  width: 80%;
+  height: 80%;
+}

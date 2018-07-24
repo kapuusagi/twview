@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Twitter Viewer</title>
+  <link rel="stylesheet" href="twitter-view.css" type="text/css">
+  <script type="text/javascript" src="./script/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-left">
+      <h3>Twitter view</h3>
+    </div>
+  </header>
+  <div class="left-menu">
+    <ul>
+      <li class="tw-link" user_id="nhk_news">NHK ニュース</li>
+      <li class="tw-link" user_id="JRCS_PR">日本赤十字社</li>
+      <li class="tw-link" user_id="<empty>">MenuItem</li>　<!-- user_idの所にTwitterアカウントの@以降を書く -->
+      <!-- ここに書く -->
+    </ul>
+  </div>
+  <div class="contents-wrapper">
+    <div class="contents">
+      <h1>Twitter</h1>
+      <div id="tw-timeline1" src="">
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <script type="text/javascript" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script type="text/javascript" src="script/twitter-view.js"></script>
+</body>
